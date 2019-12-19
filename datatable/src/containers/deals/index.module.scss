@@ -1,0 +1,25 @@
+.content{
+    overflow: auto;
+    z-index: 200;
+    &:hover {
+        li {
+            cursor: inherit;
+            background-color: white;
+        }
+    }
+    &.loaded {
+        overflow: hidden;
+    }
+
+
+    background-color: red;
+
+    li {
+        background-color: orange;
+    }
+}
+
+.date-filter {
+    width: 500px;
+    height: 200px;
+}
